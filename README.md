@@ -1,8 +1,5 @@
 # The Power of the Cloud and Unsupervised Learning
 
-## Background
-
-It is time to take what you have learned about unsupervised learning and the AWS services and apply it to new situations. For this assignment, you will need to complete **one of two** (not both) challenges. Which challenge you take on is your choice. Just be sure to give it your all -- as the skills you hone will become powerful tools in your FinTech tool belt.
 
 ![Robot](Images/robot.jpg)
 
@@ -12,7 +9,6 @@ It is time to take what you have learned about unsupervised learning and the AWS
 
 You were hired as a digital transformation consultant by one of the most prominent retirement plan providers in the country; they want to increase their client portfolio, especially by engaging young people. Since machine learning and NLP are disrupting finance to improve customer experience, you decide to create a robo advisor that could be used by customers or potential new customers to get investment portfolio recommendations for retirement.
 
-In this homework assignment, you will combine your new Amazon Web Services skills with your already mastered Python superpowers, to create a bot that will recommend an investment portfolio for a retirement plan.
 
 You are asked to accomplish the following main tasks:
 
@@ -111,7 +107,7 @@ Leave the error handling configuration for the `RecommendPortfolio` bot with the
 
 In this section, you will test your Robo Advisor. To build your bot, click on the `Build` button in the upper right hand corner. Once the build is complete, test it in the chatbot window. You should see a conversation like the one below.
 
-![Robo Advisor test](Images/bot-test-no-lambda.gif)
+![Robo Advisor test with Lambda](Images/RoboAdvisor_fernando.gif)
 
 #### Enhance the Robo Advisor with an Amazon Lambda Function
 
@@ -140,6 +136,6 @@ Once you finish coding your lambda function, test it using the [sample test case
 
 After successfully testing your code, open the Amazon Lex Console and navigate to the `RecommendPortfolio` bot configuration, integrate your new lambda function by selecting it in the _Lambda initialization and validation_ and _Fulfillment_ sections. Build your bot, and you should have a conversation as follows.
 
-![Robo Advisor test with Lambda](Images/RoboAdvisor_fernando.gif)
+
 
 ###
