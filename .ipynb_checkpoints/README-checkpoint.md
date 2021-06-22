@@ -140,6 +140,6 @@ Once you finish coding your lambda function, test it using the [sample test case
 
 After successfully testing your code, open the Amazon Lex Console and navigate to the `RecommendPortfolio` bot configuration, integrate your new lambda function by selecting it in the _Lambda initialization and validation_ and _Fulfillment_ sections. Build your bot, and you should have a conversation as follows.
 
-![Robo Advisor test with Lambda](Images/RoboAdvisor_fernando.gif)
+![Robo Advisor test with Lambda](Images/bot-test-with-lambda.gif)
 
 ###
